@@ -27,7 +27,7 @@
         <nav class="bg-[#F9F7F3]">
             <div class="flex flex-col md:flex-row justify-around py-10 items-center container mx-auto">
                 <div>
-                    <button
+                    <button id="btn-blog" onclick="goBlog()"
                         class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461] bg-[#B4F461] hover:bg-slate-300 text-base md:text-lg lg:text-xl">Blog</button>
                 </div>
                 <div class="flex justify-center max-w-[262px] items-center gap-2">
@@ -86,8 +86,8 @@
                                 help rebuild lives in the aftermath of this disaster. Every contribution counts towards
                                 making a
                                 real difference. Please consider donating today to assist those in urgent need.</p>
-                            <input type="text" class="input w-full block lexend" placeholder="Write Donation Amount" />
-                            <button
+                            <input type="text" id="input-feni" class="input w-full block lexend" placeholder="Write Donation Amount" />
+                            <button id="btn-feni"
                                 class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461] bg-[#B4F461] hover:bg-slate-300 text-base md:text-lg lg:text-xl block">Donate
                                 Now</button>
                         </div>
@@ -172,6 +172,7 @@
     <footer class="h-[140px] bg-[#F9F7F3]">
 
     </footer>
+    <script src="JS/main.js"></script>
 </body>
 
 </html>
