@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+
+    <!-- DaisyUi & Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .lexend {
+            font-family: "Lexend", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="lexend relative">
+    <header class="sticky top-0 z-20">
+        <nav class="bg-[#F9F7F3]">
+            <div class="flex flex-col md:flex-row justify-around py-10 items-center container mx-auto">
+                <div>
+                    <button
+                        class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461] bg-[#B4F461] hover:bg-slate-300 text-base md:text-lg lg:text-xl">Home</button>
+                </div>
+                <div class="flex justify-center max-w-[262px] items-center gap-2">
+                    <img class="size-7 md:size-8 lg:size-9" src="assets/logo.png" alt="money">
+                    <h3 class="text-sm md:text-lg lg:text-lg font-semibold">Donate Bangladesh</h3>
+                </div>
+                <div class="flex max-w-[135px] gap-2">
+                    <img class="size-7 md:size-8 lg:size-9" src="assets/coin.png" alt="money">
+                    <div class="text-sm md:text-lg lg:text-lg font-medium flex items-center">
+                        <h3 class="text-slate-700 font-bold">10500</h3>
+                        <p class="ml-1">BDT</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- buttons-->
+        <div class="text-center py-5 space-x-3 backdrop-blur-lg">
+            <button
+                class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461] active:bg-[#B4F461]">Donation</button>
+
+            <button class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461]">History</button>
+        </div>
+    </header>
+    <!-- main section -->
+    <main class="py-6">
+        <section class="container mx-auto space-y-3 px-7 md:px-5">
+            <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title font-semibold">What is the Document Object Model (DOM)?</div>
+                <div class="collapse-content text-sm">The Document Object Model (DOM) is a programming interface for web
+                    documents. It represents the page so that programs can change the document structure, style, and
+                    content. The DOM represents the document as nodes and objects; that way, programming languages can
+                    interact with the page.</div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">How do you select an element from the DOM?</div>
+                <div class="collapse-content text-sm ">
+                    <ul class="list-disc px-5">
+                        <li>Using getElementById: The getElementById method allows you to
+                            select an element by its ID. ...</li>
+                        <li> Using getElementsByClassName: ...</li>
+                        <li>
+                            Using getElementsByTagName: ...
+                        </li>
+                        <li>Using querySelector: ...</li>
+                        <li>
+                            Using querySelectorAll: ...
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">What is event delegation in the context of the DOM, and why is
+                    it useful?</div>
+                <div class="collapse-content text-sm">Event delegation refers to the process of using event propagation
+                    (bubbling) to handle events at a higher level in the DOM than the element on which the event
+                    originated. It allows us to attach a single event listener for elements that exist now or in the
+                    future.
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title font-semibold">How do you manipulate an element's attributes and styles using
+                    the DOM?
+                </div>
+                <div class="collapse-content text-sm">
+                    <ul class="list-disc px-5">
+                        <li>Change the Content of an Element.</li>
+                        <li>Manipulate the Class Attribute.</li>
+                        <li>Setting CSS Styles Using JavaScript.</li>
+                        <li>Create, Add, and Remove Elements.</li>
+                        <li>Insert Element at a Specific Position.</li>
+                        <li>Manipulating Element Attributes.</li>
+                        <li>Manipulating Data Attributes.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="h-[140px] bg-[#F9F7F3]">
+
+    </footer>
+</body>
+
+</html>
