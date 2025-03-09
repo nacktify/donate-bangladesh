@@ -37,7 +37,7 @@
                 <div class="flex max-w-[135px] gap-2">
                     <img class="size-7 md:size-8 lg:size-9" src="assets/coin.png" alt="money">
                     <div class="text-sm md:text-lg lg:text-lg font-medium flex items-center">
-                        <h3 class="text-slate-700 font-bold">10500</h3>
+                        <h3 id="own-balance" class="text-slate-700 font-bold">10500</h3>
                         <p class="ml-1">BDT</p>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                         <div class="flex max-w-42 gap-2 bg-slate-100 px-3 py-1 rounded-md ml-5">
                             <img class="size-7 md:size-8 lg:size-9" src="assets/coin.png" alt="money">
                             <div class="text-sm md:text-lg lg:text-lg font-medium flex items-center">
-                                <h3 class="text-slate-700 font-bold">70500</h3>
+                                <h3 id="balance-feni" class="text-slate-700 font-bold">70500</h3>
                                 <p class="ml-1">BDT</p>
                             </div>
                         </div>
@@ -86,7 +86,8 @@
                                 help rebuild lives in the aftermath of this disaster. Every contribution counts towards
                                 making a
                                 real difference. Please consider donating today to assist those in urgent need.</p>
-                            <input type="text" id="input-feni" class="input w-full block lexend" placeholder="Write Donation Amount" />
+                            <input type="text" id="input-feni" class="input w-full block lexend"
+                                placeholder="Write Donation Amount" />
                             <button id="btn-feni"
                                 class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461] bg-[#B4F461] hover:bg-slate-300 text-base md:text-lg lg:text-xl block">Donate
                                 Now</button>
@@ -103,7 +104,7 @@
                         <div class="flex max-w-42 gap-2 bg-slate-100 px-3 py-1 rounded-md ml-5">
                             <img class="size-7 md:size-8 lg:size-9" src="assets/coin.png" alt="money">
                             <div class="text-sm md:text-lg lg:text-lg font-medium flex items-center">
-                                <h3 class="text-slate-700 font-bold">25000</h3>
+                                <h3 id="noakhali-balance" class="text-slate-700 font-bold">25000</h3>
                                 <p class="ml-1">BDT</p>
                             </div>
                         </div>
@@ -122,8 +123,9 @@
                                 help rebuild lives in the aftermath of this disaster. Every contribution counts towards
                                 making a
                                 real difference. Please consider donating today to assist those in urgent need.</p>
-                            <input type="text" class="input w-full block lexend" placeholder="Write Donation Amount" />
-                            <button
+                            <input id="input-noakhali" type="text" class="input w-full block lexend"
+                                placeholder="Write Donation Amount" />
+                            <button id="btn-noakhali"
                                 class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461] bg-[#B4F461] hover:bg-slate-300 text-base md:text-lg lg:text-xl block">Donate
                                 Now</button>
                         </div>
@@ -139,7 +141,7 @@
                         <div class="flex max-w-42 gap-2 bg-slate-100 px-3 py-1 rounded-md ml-5">
                             <img class="size-7 md:size-8 lg:size-9" src="assets/coin.png" alt="money">
                             <div class="text-sm md:text-lg lg:text-lg font-medium flex items-center">
-                                <h3 class="text-slate-700 font-bold">60200</h3>
+                                <h3 id="quota-balance" class="text-slate-700 font-bold">60200</h3>
                                 <p class="ml-1">BDT</p>
                             </div>
                         </div>
@@ -158,8 +160,9 @@
                                 help rebuild lives in the aftermath of this disaster. Every contribution counts towards
                                 making a
                                 real difference. Please consider donating today to assist those in urgent need.</p>
-                            <input type="text" class="input w-full block lexend" placeholder="Write Donation Amount" />
-                            <button
+                            <input id="input-quota" type="text" class="input w-full block lexend"
+                                placeholder="Write Donation Amount" />
+                            <button id="btn-quota"
                                 class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461] bg-[#B4F461] hover:bg-slate-300 text-base md:text-lg lg:text-xl block">Donate
                                 Now</button>
                         </div>
@@ -172,7 +175,9 @@
     <footer class="h-[140px] bg-[#F9F7F3]">
 
     </footer>
-    <script src="JS/main.js"></script>
+    <script src="JS/home.js"></script>
+    <script src="JS/utilities.js"></script>
+    <script src="JS/donate.js"></script>
 </body>
 
 </html>
