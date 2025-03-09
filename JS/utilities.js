@@ -11,3 +11,11 @@ function getInnerTextValueById(id) {
 };
 
 
+function showSecbyId(id) {
+    document.getElementById('history').classList.add('hidden');
+    document.getElementById('donation').classList.add('hidden');
+    //show the section
+    document.getElementById(id).classList.remove('hidden');
+
+
+}

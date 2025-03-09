@@ -45,15 +45,15 @@
         </nav>
         <!-- buttons-->
         <div class="text-center py-5 space-x-3 backdrop-blur-lg">
-            <button
+            <button id="donation-show"
                 class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461] active:bg-[#B4F461]">Donation</button>
 
-            <button class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461]">History</button>
+            <button id="history-show" class="btn sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl focus:bg-[#B4F461]">History</button>
         </div>
     </header>
     <!-- main section -->
     <main class="py-6">
-        <section class="container mx-auto">
+        <section id="donation" class="container mx-auto">
 
             <!-- cards -->
             <div class="space-y-5">
@@ -170,7 +170,7 @@
                 </div>
             </div>
         </section>
-        <section id="history" class="container mx-auto">
+        <section id="history" class="container mx-auto hidden">
 
         </section>
     </main>
@@ -181,6 +181,7 @@
     <script src="JS/home.js"></script>
     <script src="JS/utilities.js"></script>
     <script src="JS/donate.js"></script>
+    <script src="JS/feature.js"></script>
 </body>
 
 </html>
